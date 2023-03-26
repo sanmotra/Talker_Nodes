@@ -1,0 +1,6 @@
+<launch>
+
+  <!-- Declare nodes to launch -->
+  <node pkg="talker_nodes" type="publisher" name="talking_node" output="screen"></node>
+
+</launch>

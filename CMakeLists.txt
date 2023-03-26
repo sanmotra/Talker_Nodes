@@ -150,6 +150,12 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+
+add_executable(publisher src/publisher.cpp)
+target_link_libraries(publisher ${catkin_LIBRARIES})
+
+add_executable(subscriber src/subscriber.py)
+
 #############
 ## Install ##
 #############
