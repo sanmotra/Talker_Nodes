@@ -1,6 +1,6 @@
 <launch>
 
   <!-- Declare nodes to launch -->
-  <node pkg="talker_nodes" type="subscriber" name="listner_node" output="screen"></node>
+  <node pkg="talker_nodes" type="subscriber.py" name="listner_node" output="screen"></node>
 
 </launch>

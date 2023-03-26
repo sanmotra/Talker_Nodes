@@ -116,7 +116,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -155,6 +155,7 @@ add_executable(publisher src/publisher.cpp)
 target_link_libraries(publisher ${catkin_LIBRARIES})
 
 add_executable(subscriber src/subscriber.py)
+target_link_libraries(subscriber ${catkin_LIBRARIES})
 
 #############
 ## Install ##
